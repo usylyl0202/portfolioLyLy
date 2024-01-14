@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #7F7FD5, #86A8E7, #91EAE4);
+            color: #333;
+            transition: background-color 0.5s ease-in-out;
+        }
+
+        header {
+            background: linear-gradient(to right, #4CAF50, #2196F3);
+            color: #fff;
+            text-align: center;
+            padding: 2em;
+            transition: background 0.5s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+
+        h1,
+        h2 {
+            margin: 0;
+        }
+
+        section {
+            background: linear-gradient(to bottom, #fff, #f0f0f0);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .promise::before {
+            content: '';
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .project-photos {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .project-photo {
+            flex: 1;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-photo img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-photo:hover {
+            transform: scale(1.05);
+        }
+
+        .project-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .project-photo:hover .project-info {
+            opacity: 1;
+        }
+
+        footer {
+            background: linear-gradient(to right, #4CAF50, #2196F3);
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            margin-top: 20px;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .shape1,
+        .shape2 {
+            border-radius: 50%;
+            position: absolute;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .shape1 {
+            background-color: #FFC107;
+            height: 100px;
+            width: 100px;
+        }
+
+        .shape2 {
+            background-color: #2196F3;
+            height: 80px;
+            width: 80px;
+        }
+    </style>
+    <title>Digital Marketing Intern Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+        <h1>PHAM THAT LY LY</h1>
+        <h2>Digital Marketing</h2>
+    </header>
+
+    <section id="information">
+        <h2>Information</h2>
+        <p>✉️ Email: phamthailyly@gmail.com</p>
+        <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/ly-ly-ph%E1%BA%A1m-a163ba1a3/" target="_blank">PHAM THAI LY
+                LY</a></p>
+        <p>☎️ Phone: 0376343796</p>
+    </section>
+
+    <section id="About">
+        <h2>About me</h2>
+        <p>
+            Dynamic digital marketing professional from Publicis Groupe, a global leader in the marketing industry, with
+            a proven track record in crafting and executing successful digital strategies. Specializing in SEO, social
+            media, content, email marketing, and paid advertising, I leverage data-driven insights to optimize campaigns
+            and drive business objectives.
+
+
+        </p>
+        <p> Experienced in collaborating with cross-functional teams and managing diverse projects, I bring a deep
+            understanding of the evolving digital landscape. Now transitioning to freelance, I am eager to contribute my
+            skills to projects requiring strategic thinking and hands-on execution. Let's connect and explore how I can
+            bring value to your organization's digital marketing initiatives.</p>
+            <section>
+        <section id="projects">
+            <h2>Freelance Projects Showcase</h2>
+            <p>
+                Actively managing a pivotal project for a prominent restaurant chain since October. Implementing and
+                optimizing digital marketing strategies to enhance the brand's online presence, drive customer
+                engagement,
+                and contribute to sustained business growth.
+            </p>
+            <p>
+                Comprehensive marketing campaigns, social media engagement strategies, and meticulous content strategy
+                development. The project operates seamlessly, maintaining stability and achieving key performance
+                indicators.
+            </p>
+            <p>
+                Overseeing the execution of marketing campaigns, analyzing performance metrics, and adapting strategies
+                to
+                align with evolving market trends. Strengthened skills in strategic thinking, data analysis, and
+                navigating
+                the dynamic landscape of digital marketing.
+            </p>
+            <div class="project-photos">
+                <div class="project-photo">
+                    <img src="3.png" alt="Project 1">
+                    <div class="project-info">Project 1 - Marketing Campaign</div>
+                </div>
+                <div class="project-photo">
+                    <img src="2.png" alt="Project 2">
+                    <div class="project-info">Project 2 - Social Media Engagement</div>
+                </div>
+                <div class="project-photo">
+                    <img src="1.png" alt="Project 3">
+                    <div class="project-info">Project 3 - Content Strategy</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="commitments">
+            <h2>Commitments and Promises</h2>
+            <p class="promise">🚀 Committed to continuous learning. Stay updated on industry trends, evolving
+                strategies,
+                and cutting-edge techniques.</p>
+            <p class="promise">🌟 Explore the depths of innovation, bringing fresh perspectives, creative solutions, and
+                genuine passion to every project.</p>
+            <p class="promise">🛡️ Dedicate myself to being a steadfast advocate for brand success. Demonstrate
+                resilience,
+                adaptability, and an unwavering focus on achieving tangible, impactful results.</p>
+            <p class="promise">🌐 Navigate the dynamic digital marketing landscape. Contribute meaningfully and leave a
+                positive imprint on businesses engaged with.</p>
+        </section>
+
+        <footer>
+            <p>Thank you sincerely for taking the time to explore my portfolio.</p>
+        </footer>
+
+        <script>
+            document.addEventListener("mousemove", function (e) {
+                const mouseX = e.pageX;
+                const mouseY = e.pageY;
+
+                const header = document.querySelector("header");
+                const headerRect = header.getBoundingClientRect();
+                const offsetX = (mouseX - (headerRect.left + headerRect.right) / 2) / 20;
+                const offsetY = (mouseY - (headerRect.top + headerRect.bottom) / 2) / 20;
+                header.style.backgroundPosition = `calc(50% + ${offsetX}px) calc(50% + ${offsetY}px)`;
+
+                const shape1 = document.querySelector(".shape1");
+                const shape2 = document.querySelector(".shape2");
+                shape1.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+                shape2.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+            });
+        </script>
+
+</body>
+
+</html>
